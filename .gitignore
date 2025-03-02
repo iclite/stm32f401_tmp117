@@ -1,3 +1,6 @@
+# log
+*.log
+
 # Prerequisites
 *.d
 
@@ -17,7 +20,7 @@
 *.pch
 
 # Libraries
-*.lib
+#*.lib
 *.a
 *.la
 *.lo
@@ -29,7 +32,6 @@
 *.dylib
 
 # Executables
-*.exe
 *.out
 *.app
 *.i*86
@@ -50,3 +52,70 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*.crun
+*.dni
+*.jlink
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.crf
+*.axf
+*.tra
+JLinkLog.txt
+*.iex
+*.htm
+#*.sct
+#*.uvoptx
+#*.uvguix
+*.pbi
+*.pbi.cout
+*.cout
+*.browse
+*.linf
+*.pbd
+*.TMP
+*.uvguix.*
+*.uvmpw.uvgui.*
+*.scc
+*.sim
+*.i
+*.pbi.xcl
+*.pbd.linf
+*.wsdt
+*.dbgdt
+*.wspos
+*.Debug.general.xcl
+*.Debug.driver.xcl
+*.dbgconf
+*.scvd
+
+# IAR Temp files
+*.dep
+*.ewt
+*.dnx
+*.ps1
+*.pbw
+*.reggroups
+*.xml
+*.xcl
+*.bat
+*.ninja_deps
+*.ninja_log
+*.ninja
+*.*_build_cache
+
+# Doxygen
+**/html/
+**/latex/
+
+!app/web/makefsdata.bat
